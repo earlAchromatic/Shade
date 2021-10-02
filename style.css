@@ -1,0 +1,40 @@
+:root {
+  --primary: rgb(255, 0, 157);
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background: var(--primary);
+  background: linear-gradient(
+    90deg,
+    rgb(132, 0, 255) 5%,
+    rgba(255, 0, 157, 1) 40%,
+    rgba(255, 0, 157, 1) 60%,
+    rgba(132, 0, 255, 1) 95%
+  );
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  color: var(--primary);
+}
+
+#shadow {
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  font-size: 24px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-align: center;
+}
+
+path {
+  fill: var(--primary);
+}
